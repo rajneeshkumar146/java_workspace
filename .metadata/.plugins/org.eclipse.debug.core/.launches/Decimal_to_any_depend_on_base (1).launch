@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Class_Work/3rd_Class_Binary_Invrerse_Rotation/src/Decimal_to_any_depend_on_base.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Decimal_to_any_depend_on_base"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Class_Work"/>
+</launchConfiguration>

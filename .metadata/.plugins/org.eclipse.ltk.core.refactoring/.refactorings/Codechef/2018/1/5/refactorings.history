@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Codechef/src/Beginner/Spam_Classification_Using_Neural_Net.java&apos; to &apos;Spam_Classification_Using_Neural_Net_SPAMCLAS.java&apos;" description="Rename resource &apos;Spam_Classification_Using_Neural_Net.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Beginner/Spam_Classification_Using_Neural_Net.java" name="Spam_Classification_Using_Neural_Net_SPAMCLAS.java" stamp="1517126050117" updateReferences="true"/>
+</session>

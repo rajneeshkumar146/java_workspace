@@ -1,0 +1,5 @@
+1516981760493	Change method 'main'
+1516981864698	Extract method 'compression'
+1516983728460	Extract method 'target'
+1516984510236	Rename local variable 'targetLength'
+1517041845334	Rename local variable 'a'

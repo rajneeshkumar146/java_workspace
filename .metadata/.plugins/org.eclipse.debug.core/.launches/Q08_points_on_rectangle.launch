@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/HackerRank/src/Practice/Mathmatics/Geometry/Q08_points_on_rectangle.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Practice.Mathmatics.Geometry.Q08_points_on_rectangle"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HackerRank"/>
+</launchConfiguration>

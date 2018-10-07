@@ -1,0 +1,47 @@
+package Q001_030;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class Q006_PPATH_PrimePath {
+	public static Scanner scn = new Scanner(System.in);
+
+	static int SieveSize;
+	static boolean[] prime;
+	static List<Integer> primes = new ArrayList<Integer>();
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+	private static void ppath(int a, int b) {
+
+	}
+
+	private static void SieveOfErathosthenes(int upperbound) {
+		SieveSize = upperbound + 1;
+		prime = new boolean[SieveSize];
+
+		Arrays.fill(prime, true);
+		prime[0] = prime[1] = false; // not a prime
+
+		for (long i = 2; i < SieveSize; i++) {
+			if (prime[(int) i]) { // if it is true then it is a potential prime.
+				for (long j = i * i; j < SieveSize; j += i) {
+					prime[(int) j] = false;
+				}
+
+				primes.add((int) i);
+			}
+		}
+
+		// System.out.println(primes);
+	}
+
+}

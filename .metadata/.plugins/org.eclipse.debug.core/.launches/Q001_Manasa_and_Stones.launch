@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/HackerRank/src/Practice/Algorithms/Implimentation/Q001_Manasa_and_Stones.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Practice.Algorithms.Implimentation.Q001_Manasa_and_Stones"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HackerRank"/>
+</launchConfiguration>

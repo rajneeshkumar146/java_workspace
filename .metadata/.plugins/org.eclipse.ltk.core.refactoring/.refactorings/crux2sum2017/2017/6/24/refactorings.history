@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;crux2sum2017/src/crux2sum2017&apos; to &apos;1st_and_2nd_Class&apos;" description="Rename resource &apos;crux2sum2017&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/crux2sum2017" name="1st_and_2nd_Class" stamp="1497242864008" updateReferences="true"/>
+</session>

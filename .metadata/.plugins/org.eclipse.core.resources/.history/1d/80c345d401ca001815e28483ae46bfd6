@@ -1,0 +1,45 @@
+package RangeQuery.SquareRootDecommposition;
+
+import java.util.Scanner;
+
+public class SquareRootDecomposition {
+	final int mod = 1000000000 + 7;
+	final int max = Integer.MAX_VALUE;
+	final int min = Integer.MIN_VALUE;
+	public static Scanner scn = new Scanner(System.in);
+
+	private static int[] SRTarr;
+	private static int ClusterSize;
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+		int n = scn.nextInt();
+
+	}
+
+	private static void Intialization(int n) {
+		int[] arr = ArrayInput(n);
+
+		ClusterSize = (int) (Math.sqrt(n));
+
+	}
+
+	private static int[] ArrayInput(int n) {
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = scn.nextInt();
+		}
+		return arr;
+	}
+
+	private static void displayArray(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println();
+	}
+
+}

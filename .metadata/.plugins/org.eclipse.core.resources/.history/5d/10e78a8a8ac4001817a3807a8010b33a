@@ -1,0 +1,14 @@
+package Theory.Ch05_MatheMatics.T05_NumberTheory;
+
+public class T02_Factorial {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

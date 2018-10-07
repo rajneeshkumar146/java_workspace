@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CB_Class_Work/src/Generics_Overloading_HuffmenEncoder&apos; to &apos;Class_26th_Generics_Overloading_HuffmenEncoder&apos;" description="Rename resource &apos;Generics_Overloading_HuffmenEncoder&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Generics_Overloading_HuffmenEncoder" name="Class_26th_Generics_Overloading_HuffmenEncoder" stamp="1501475609837" updateReferences="true"/>
+</session>

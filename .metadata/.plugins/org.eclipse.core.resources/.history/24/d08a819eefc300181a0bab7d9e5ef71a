@@ -1,0 +1,14 @@
+package Q001_030;
+
+public class Q004_ChefAndSequence_CHEFSQ {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

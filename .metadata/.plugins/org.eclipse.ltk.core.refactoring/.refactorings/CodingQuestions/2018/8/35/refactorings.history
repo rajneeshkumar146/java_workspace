@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CodingQuestions/src/Bitmanipulation/Q008_isPowerOf3.java&apos; to &apos;Q010_isPowerOf3.java&apos;" description="Rename resource &apos;Q008_isPowerOf3.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Bitmanipulation/Q008_isPowerOf3.java" name="Q010_isPowerOf3.java" stamp="1535383212524" updateReferences="true"/>
+</session>

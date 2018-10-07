@@ -1,0 +1,13 @@
+package BinaryTree.Misc;
+
+public class Q01_Delete_A_Tree {
+	private class Node {
+		private int data;
+		private Node left;
+		private Node right;
+	}
+
+	private Node root;
+	private int size;
+
+}

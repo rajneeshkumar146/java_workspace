@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Sorting_and_Searching/src/Binary_Search_Irr_and_Rec/Binary_Search.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Binary_Search_Irr_and_Rec.Binary_Search"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Sorting_and_Searching"/>
+</launchConfiguration>

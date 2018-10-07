@@ -1,0 +1,51 @@
+package Theory.Ch04_Graph.T01_GraphTraversal;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class T01_Traversal {
+	public static Scanner scn = new Scanner(System.in);
+	static ArrayList<Integer>[] graph;
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+	private static void DFS(int u, boolean[] isdone) {
+		isdone[u] = true;
+		for (Integer i : graph[u]) {
+			if (isdone[i]) {
+				continue;
+			}
+
+			DFS(i, isdone);
+		}
+	}
+
+	private static void BFS(int u) {
+		int[] distance = new int[graph.length];
+		boolean[] isdone = new boolean[graph.length];
+		ArrayDeque<Integer> que = new ArrayDeque<>();
+		que.addLast(u);
+
+		while (!que.isEmpty()) {
+			int v = que.removeFirst();
+
+			isdone[v] = true;
+			for (int i : graph[v]) {
+				if (isdone[i]) {
+					continue;
+				}
+
+				distance[i] = distance[v] + 1;
+				que.addLast(i);
+			}
+		}
+	}
+
+}

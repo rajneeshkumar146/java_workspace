@@ -1,0 +1,203 @@
+package Class_19th_Generic_Tree;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class GenericTree {
+
+	public class Node {
+		int data;
+		ArrayList<Node> children = new ArrayList<>();
+	}
+
+	private Node root;
+	private int size;
+
+	public GenericTree() {
+		Scanner scn = new Scanner(System.in);
+		root = takeInput(null, -1, scn);
+	}
+
+	private Node takeInput(Node parent, int children, Scanner scn) {
+		// prompt
+		if (parent == null) {
+			System.out.println("Enter data for root?");
+		} else {
+			System.out.println("Enter data for" + children + "th child");
+		}
+
+		// collect data
+
+		int data = scn.nextInt();
+
+		// create node,set data and mailntain size
+
+		Node node = new Node();
+		node.data = data;
+		this.size++;
+
+		// solve the same problem for children-ask number of children for child
+
+		System.out.println("Number of children for " + node.data + "th parent");
+		int noc = scn.nextInt(); // noc=number_of_child.
+
+		for (int i = 0; i < noc; i++) {
+			Node gchild = takeInput(node, i, scn);
+			node.children.add(gchild);
+		}
+
+		// return child
+
+		return node;
+
+	}
+
+	public int size() {
+		return size;
+	}
+
+	public boolean Isempty() {
+		return size == 0;
+	}
+
+	public void display() {
+
+		display(root);
+
+	}
+
+	private void display(Node node) {
+
+		String str = node.data + "=>";
+		for (Node child : node.children) {
+			str += child.data + ", ";
+		}
+
+		System.out.println(str + ".");
+
+		for (Node child : node.children) {
+			display(child);
+		}
+
+	}
+
+	public int size2() {
+
+		return size2(root);
+
+	}
+
+	private int size2(Node node) {
+		int sz = 0;
+		for (Node child : node.children) {
+			int cs = size2(child);
+			sz += cs;
+		}
+
+		sz += 1;
+		return sz;
+
+	}
+
+	public int max() {
+		return max(root);
+	}
+
+	private int max(Node node) {
+		int maxr = node.data;
+		for (Node child : node.children) {
+			int maxc = max(child);
+			if (maxc > maxr) {
+				maxr = maxc;
+			}
+		}
+
+		return maxr;
+
+	}
+
+	public int height() {
+		return height(root);
+	}
+
+	private int height(Node node) {
+
+		int h = -1;
+		for (Node child : node.children) {
+			int ch = height(child);
+			if (ch > h) {
+				h = ch;
+			}
+		}
+		return h + 1;
+	}
+
+	public boolean find(int n) {
+		return find(root, n);
+	}
+
+	private boolean find(Node node, int n) {
+
+		if (node.data == n) {
+			return true;
+		}
+
+		for (Node child : node.children) {
+			boolean res = find(child, n);
+			if (res == true) {
+				return true;
+			}
+		}
+		return false;
+
+	}
+
+	public void mirrorimage() {
+
+		mirrorimage(root);
+
+	}
+
+	private void mirrorimage(Node node) {
+
+		for (Node child : node.children) {
+			mirrorimage(child);
+		}
+
+		int li = 0, ri = node.children.size() - 1;
+		while (li < ri) {
+			Node lin = node.children.get(li);
+			node.children.set(li, node.children.get(ri));
+			node.children.set(ri, lin);
+			li++;
+			ri--;
+		}
+
+	}
+
+	public void printAtDepth(int d) {
+
+		printAtDepth(root, d, 0);
+
+	}
+
+	private void printAtDepth(Node node, int d, int hight) {
+
+		for (Node child : node.children) {
+			printAtDepth(child, d, hight + 1);
+			if (d == hight) {
+				System.out.print(child.data + " ");
+			}
+		}
+
+	}
+
+	public void postdisplay() {
+     postdisplay(root);
+	}
+
+	private void postdisplay(Node node) {
+
+	}
+
+}

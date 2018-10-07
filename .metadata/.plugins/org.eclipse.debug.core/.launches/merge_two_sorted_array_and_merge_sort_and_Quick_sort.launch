@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Practice/src/Space_time_and_DP/merge_two_sorted_array_and_merge_sort_and_Quick_sort.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Space_time_and_DP.merge_two_sorted_array_and_merge_sort_and_Quick_sort"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practice"/>
+</launchConfiguration>

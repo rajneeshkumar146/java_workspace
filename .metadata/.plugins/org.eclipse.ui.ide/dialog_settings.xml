@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Rijnesh\workspace\June9"/>
+		<item value="C:\Users\Rijnesh\Downloads\Compressed\Assignment"/>
+		<item value="C:\Users\Rijnesh\workspace\Crux4Sum2017"/>
+		<item value="C:\Users\Rijnesh\workspace\Crux3Sum2017"/>
+		<item value="C:\Users\Rijnesh\Downloads\Compressed\Code\Crux2Sum2017"/>
+		<item value="C:\Users\Rijnesh\workspace\Assingment_03"/>
+		<item value="C:\Users\Rijnesh\workspace\Assingment_02"/>
+		<item value="C:\Users\Rijnesh\workspace\5th_Class_Shorting_and_2D_array"/>
+		<item value="C:\Users\Rijnesh\workspace\4th_Class_Array"/>
+		<item value="C:\Users\Rijnesh\workspace\Class_Work\3rd_Class_Binary_Invrerse_Rotation"/>
+		<item value="C:\Users\Rijnesh\workspace\Class_Work"/>
+		<item value="C:\Users\Rijnesh\workspace\Assingment&apos;s"/>
+		<item value="C:\Users\Rijnesh\workspace\Crux2Sum2017"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="662" key="DIALOG_WIDTH"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="629" key="DIALOG_X_ORIGIN"/>
+		<item value="233" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1496767731693" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="619" key="DIALOG_X_ORIGIN"/>
+		<item value="274" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="669" key="DIALOG_X_ORIGIN"/>
+			<item value="191" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

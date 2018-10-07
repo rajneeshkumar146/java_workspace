@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Class_Work/4th_Class_Array/src/Array_Input_output.java&apos; to &apos;Basic_of_array.java&apos;" description="Rename resource &apos;Array_Input_output.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4th_Class_Array/src/Array_Input_output.java" name="Basic_of_array.java" stamp="1497503924757" updateReferences="true"/>
+</session>

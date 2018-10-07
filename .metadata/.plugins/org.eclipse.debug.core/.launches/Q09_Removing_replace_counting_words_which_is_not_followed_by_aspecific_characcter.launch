@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Assingments/src/Assingment_07_Recursion/Q09_Removing_replace_counting_words_which_is_not_followed_by_aspecific_characcter.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Assingment_07_Recursion.Q09_Removing_replace_counting_words_which_is_not_followed_by_aspecific_characcter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Assingments"/>
+</launchConfiguration>

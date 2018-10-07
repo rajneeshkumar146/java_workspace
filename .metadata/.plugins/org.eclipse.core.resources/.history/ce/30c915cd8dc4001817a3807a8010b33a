@@ -1,0 +1,87 @@
+package Theory.Ch05_MatheMatics.T05_NumberTheory;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class T01_PrimeNumber {
+	public static Scanner scn = new Scanner(System.in);
+
+	static int SieveSize;
+	static boolean[] prime;
+	static List<Integer> primes = new ArrayList<Integer>();
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+		SieveOfErathosthenes(10000000);
+		System.out.printf("%b\n", IsPrime(2147483647));
+		System.out.printf("%b\n", IsPrime(136117223861L));
+
+	}
+
+	private static void SieveOfErathosthenes(int upperbound) {
+		SieveSize = upperbound + 1;
+		prime = new boolean[SieveSize];
+
+		Arrays.fill(prime, true);
+		prime[0] = prime[1] = false; // not a prime
+
+		for (long i = 2; i < SieveSize; i++) {
+			if (prime[(int) i]) { // if it is true then it is a potential prime.
+				for (long j = i * i; j < SieveSize; j += i) {
+					prime[(int) j] = false;
+				}
+
+				primes.add((int) i);
+			}
+		}
+
+		// System.out.println(primes);
+	}
+
+	private static boolean IsPrime(long n) {
+		if (n < SieveSize) { // O(1)_for_small_prime
+			return prime[(int) n];
+		}
+
+		for (long i = 0; i < primes.size(); i++) { // valid till
+													// n<=(last_prime_in_list)^2.
+			if ((n % primes.get((int) i)) == 0)
+				return false;
+
+		}
+
+		return true;
+	}
+
+	private static List<Integer> primeFactor(long n) {
+		List<Integer> factors = new ArrayList<Integer>();
+
+		if (n != 1 || prime[(int) (n)]) { // if_it_is_prime_then_there_is_no_factors.
+			return factors;
+		}
+
+		int pf_Idx = 0;
+		long pf = primes.get(pf_Idx);
+
+		while (pf * pf <= n) {
+			while (n % pf == 0) {
+				n /= pf;
+				factors.add((int) pf);
+			}
+			pf = primes.get(++pf_Idx);
+		}
+
+		if (n != 1) {
+			factors.add((int) n);
+		}
+
+		return factors;
+
+	}
+
+}

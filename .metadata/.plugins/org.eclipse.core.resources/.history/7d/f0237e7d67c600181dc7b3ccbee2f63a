@@ -1,0 +1,14 @@
+package Q001_030;
+
+public class Q007_ONEZERO_OnceAndZero {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

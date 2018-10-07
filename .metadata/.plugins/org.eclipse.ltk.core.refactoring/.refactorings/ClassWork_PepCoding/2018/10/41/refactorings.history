@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;node&apos; in &apos;L011_LinkedList.LinkedList_001.Linkedlist.Fold(...)&apos; to &apos;right&apos;&#x0D;&#x0A;- Original project: &apos;ClassWork_PepCoding&apos;&#x0D;&#x0A;- Original element: &apos;L011_LinkedList.LinkedList_001.Linkedlist.Fold(HeapMover, Node, int).node&apos;&#x0D;&#x0A;- Renamed element: &apos;node&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;node&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;L011_LinkedList{LinkedList_001.java[LinkedList_001[Linkedlist~Fold~QHeapMover;~QNode;~I@node!8513!8521!8518!8521!QNode;!0!true" name="right" references="true" stamp="1538885577565" version="1.0"/>
+</session>

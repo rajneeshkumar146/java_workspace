@@ -1,0 +1,14 @@
+package Class_19th_Generic_Tree;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// 10 3 20 2 50 0 60 0 30 3 70 2 110 0 120 80 0 90 2 140 0 50 0 40 100 0
+		GenericTree gt=new GenericTree();
+		gt.display();
+		
+		gt.max();
+
+	}
+
+}

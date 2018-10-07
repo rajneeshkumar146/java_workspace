@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;str1&apos; in &apos;Assingment_07_Recursion.Q05_insert_character_in_duplicate.insert_btw_duplicate(...)&apos; to &apos;str&apos;&#x0D;&#x0A;- Original project: &apos;Assingments&apos;&#x0D;&#x0A;- Original element: &apos;Assingment_07_Recursion.Q05_insert_character_in_duplicate.insert_btw_duplicate(String).str1&apos;&#x0D;&#x0A;- Renamed element: &apos;str1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;str1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Assingment_07_Recursion{Q05_insert_character_in_duplicate.java[Q05_insert_character_in_duplicate~insert_btw_duplicate~QString;@str1!415!425!422!425!QString;!0!true" name="str" references="true" stamp="1502084262789" version="1.0"/>
+</session>

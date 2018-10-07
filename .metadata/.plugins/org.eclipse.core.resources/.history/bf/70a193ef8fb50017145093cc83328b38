@@ -1,0 +1,10 @@
+package DynamicProgramming.BasicProblem;
+
+public class Q21_Count_number_of_ways_to_reach_a_given_score {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

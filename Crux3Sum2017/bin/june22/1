@@ -1,0 +1,7 @@
+Toggle the case of all characters in the string
+
+Replace each odd character with next char (char with asci one more) 
+and even char with previous char (char with ascii one less)
+
+Between any two characters insert the difference between their asci 
+e.g. acf should become a2c3f

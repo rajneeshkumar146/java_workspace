@@ -1,0 +1,19 @@
+package RangeQuery.SquareRootDecommposition;
+
+import java.util.Scanner;
+
+public class SquareRootDecomposition {
+	final int mod = 1000000000 + 7;
+	final int max = Integer.MAX_VALUE;
+	final int min = Integer.MIN_VALUE;
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

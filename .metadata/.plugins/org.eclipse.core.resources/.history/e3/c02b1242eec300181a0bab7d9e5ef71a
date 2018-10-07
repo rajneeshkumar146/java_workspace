@@ -1,0 +1,31 @@
+package Q001_030;
+
+import java.util.Scanner;
+
+public class Q003_WhoDaresToBeAMillionare_WDTBAM {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+		int t = Integer.parseInt(scn.nextLine());
+		while (t-- > 0) {
+			int n = Integer.parseInt(scn.nextLine());
+			String s1 = scn.nextLine();
+			String s2 = scn.nextLine();
+			int[] arr = ArrayInput(n);
+			
+		}
+	}
+
+	private static int[] ArrayInput(int n) {
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = Integer.parseInt(scn.nextLine());
+		}
+		return arr;
+	}
+
+}

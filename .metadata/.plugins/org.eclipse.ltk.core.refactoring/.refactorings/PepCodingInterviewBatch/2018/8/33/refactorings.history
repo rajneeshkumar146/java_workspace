@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;zeroEnd&apos; in &apos;DynamicProgramming.Basics.Q215_BinaryStrings.BinaryStrings_Rec(...)&apos; to &apos;iszeroEnd&apos;&#x0D;&#x0A;- Original project: &apos;PepCodingInterviewBatch&apos;&#x0D;&#x0A;- Original element: &apos;DynamicProgramming.Basics.Q215_BinaryStrings.BinaryStrings_Rec(int, boolean).zeroEnd&apos;&#x0D;&#x0A;- Renamed element: &apos;zeroEnd&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;zeroEnd&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;DynamicProgramming.Basics{Q215_BinaryStrings.java[Q215_BinaryStrings~BinaryStrings_Rec~I~Z@zeroEnd!404!418!412!418!Z!0!true" name="iszeroEnd" references="true" stamp="1534485648594" version="1.0"/>
+</session>

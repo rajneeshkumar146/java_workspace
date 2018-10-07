@@ -1,0 +1,25 @@
+package Q001_030;
+
+import java.util.Scanner;
+
+public class Q007_ONEZERO_OnceAndZero {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+		int t = scn.nextInt();
+		while (t-- > 0) {
+			int a = scn.nextInt();
+			int b = scn.nextInt();
+		}
+
+	}
+
+	private static void OneZero() {
+
+	}
+
+}

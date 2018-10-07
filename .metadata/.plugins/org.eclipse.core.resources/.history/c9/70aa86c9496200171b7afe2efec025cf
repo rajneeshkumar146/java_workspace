@@ -1,0 +1,200 @@
+package Space_time_and_DP;
+
+import java.util.Scanner;
+
+public class count_boardand_mazze_path_best_or_worst {
+
+	public static void main(String[] args) {
+
+		Scanner scn = new Scanner(System.in);
+		System.out.println("enter Your end condition");
+		int end = scn.nextInt();
+
+		System.out.println(cbpath_recu_best(0, end, new int[end]));
+
+		// System.out.println(cbpath_recu_worst(0, end));
+
+		// System.out.println(cmpath_recu_worst(0,0,end, end));
+
+//		System.out.println(cmpath_recu_best(0, 0, end, end, new int[end + 1][end + 1]));
+
+//		System.out.println(cbpath_irre_better(end));
+		
+//		System.out.println(cbpath_irre_better2(end));
+		
+//		System.out.println(cbpath_irre_best(end));
+		
+		System.out.println(mazze_path_btr(end, end));
+
+		System.out.println(mazze_path_btr2(end, end));
+	}
+
+	public static int cbpath_recu_worst(int curr, int end) {
+
+		if (curr == end) {
+			return 1;
+		}
+		if (curr > end) {
+			return 0;
+		}
+
+		int count = 0;
+		for (int dice = 1; dice <= 6; dice++) {
+			count += cbpath_recu_worst(curr + dice, end);
+		}
+
+		return count;
+
+	}
+
+	public static int cbpath_recu_best(int curr, int end, int[] strg) {
+		if (curr == end) {
+			return 1;
+
+		}
+
+		if (curr > end) {
+			return 0;
+
+		}
+
+		if (strg[curr] != 0) {
+
+			return strg[curr];
+
+		}
+
+		int count = 0;
+		for (int dice = 1; dice <= 6; dice++) {
+			count += cbpath_recu_best(curr + dice, end, strg);
+		}
+		strg[curr] = count;
+		return count;
+
+	}
+
+	public static int cmpath_recu_worst(int cr, int cc, int er, int ec) {
+
+		if (cr == er && cc == ec) {
+			return 1;
+		}
+		if (cr > er || cc > ec) {
+			return 0;
+		}
+
+		int horizontal = cmpath_recu_worst(cr, cc + 1, er, ec);
+		int vertical = cmpath_recu_worst(cr + 1, cc, er, ec);
+		int result = horizontal + vertical;
+		return result;
+
+	}
+
+	public static int cmpath_recu_best(int cr, int cc, int er, int ec, int[][] strg) {
+
+		if (cr == er && cc == ec) {
+			return 1;
+		}
+		if (cr > er || cc > ec) {
+			return 0;
+		}
+		if (strg[cr][cc] != 0) {
+			return strg[cr][cc];
+		}
+
+		int horizontal = cmpath_recu_best(cr, cc + 1, er, ec, strg);
+		int vertical = cmpath_recu_best(cr + 1, cc, er, ec, strg);
+		int result = horizontal + vertical;
+		strg[cr][cc] = result;
+		return result;
+
+	}
+
+	public static int cbpath_irre_better(int n) {
+
+		int[] strg = new int[n + 6];
+		strg[n] = 1;
+		for (int i = n-1; i >= 0; i--) {
+			for (int dice = 1; dice <= 6; dice++) {
+
+				strg[i] += strg[i + dice];
+			}
+		}
+
+		return strg[0];
+
+	}
+
+	public static int cbpath_irre_better2(int n) {
+
+		int[] strg = new int[n + 1];
+		strg[n] = 1;
+		for (int i = n-1; i >= 0; i--) {
+			for (int dice = 1; dice <= 6; dice++) {
+				if (i + dice <= 10) {
+					strg[i] += strg[i + dice];
+				}
+
+			}
+		}
+
+		return strg[0];
+
+	}
+
+	public static int cbpath_irre_best(int n) {
+
+		int[] strg = new int[6];
+		strg[0] = 1;
+		for (int i = n-1; i >= 0; i--) {
+			int nv = strg[0] + strg[1] + strg[2] + strg[3] + strg[4] + strg[5];
+			strg[5] = strg[4];
+			strg[4] = strg[3];
+			strg[3] = strg[2];
+			strg[2] = strg[1];
+			strg[1] = strg[0];
+			strg[0] = nv;
+		}
+
+		return strg[0];
+
+	}
+
+	public static int mazze_path_btr(int er, int ec) {
+
+		int[][] strg = new int[er + 2][ec + 2];
+		strg[er+1][ec] = 1;
+
+		for (int row = er; row > 0; row--) {
+			for (int col = ec; col > 0; col--) {
+
+				strg[row][col] = strg[row + 1][col] + strg[row][col + 1];
+				
+
+			}
+		}
+
+		return strg[1][1];
+
+	}
+	
+	public static int mazze_path_btr2(int er, int ec) {
+
+		int[][] strg = new int[er + 1][ec + 1];
+		strg[er][ec] = 1;
+
+		for (int row = er-1; row >= 0; row--) {
+			for (int col = ec-1; col >= 0; col--) {
+
+				strg[row][col] = strg[row + 1][col] + strg[row][col + 1];
+				
+
+			}
+		}
+
+		return strg[0][0];
+
+	}
+	
+	
+	
+}

@@ -1,0 +1,33 @@
+package DynamicProgramming.BasicProblem;
+
+public class Q21_Count_number_of_ways_to_reach_a_given_score {
+
+	public static void main(String[] args) {
+		System.out.println(countWays(23, ""));
+	}
+
+	public static int countWays(int num, String ans) {
+		if (num == 0) {
+			System.out.println(ans);
+			return 1;
+		}
+
+		if (num < 0) {
+			return 0;
+		}
+
+		int count3=0,count5=0,count10=0;
+		if(ans.charAt(ans.length()-1)=='3'){
+		count3 =countWays(num - 3, ans + "3");
+		}
+		if(ans.charAt(ans.length()-1)=='5'){
+			count5 =countWays(num - 5, ans + "5");
+			}
+		if(ans.charAt(ans.length()-1)=='10'){
+			count10 =countWays(num - 10, ans + "10");
+			}
+	
+		return count3+count5+ count10;
+	}
+
+}

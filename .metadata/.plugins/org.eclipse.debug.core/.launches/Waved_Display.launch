@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CB_Class_Work/src/Class_5th_Sorting_or_Searching_and_2D_Array/Waved_Display.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Class_5th_Sorting_or_Searching_and_2D_Array.Waved_Display"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CB_Class_Work"/>
+</launchConfiguration>

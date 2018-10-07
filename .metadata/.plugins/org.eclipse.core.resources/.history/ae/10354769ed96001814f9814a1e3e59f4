@@ -1,0 +1,16 @@
+package Rishabh.L001_Array;
+
+import java.util.Scanner;
+
+public class Array_001 {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

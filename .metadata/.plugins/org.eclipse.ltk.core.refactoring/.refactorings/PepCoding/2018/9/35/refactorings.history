@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PepCoding/src/sept_01_2018_graph_001&apos; to &apos;sept_01_2018_&apos;" description="Rename resource &apos;sept_01_2018_graph_001&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/sept_01_2018_graph_001" name="sept_01_2018_" stamp="1535774301926" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;PepCoding/src/sept_01_2018_&apos; to &apos;sept_01_2018&apos;" description="Rename resource &apos;sept_01_2018_&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/sept_01_2018_" name="sept_01_2018" stamp="1535774307413" updateReferences="true"/>
+</session>

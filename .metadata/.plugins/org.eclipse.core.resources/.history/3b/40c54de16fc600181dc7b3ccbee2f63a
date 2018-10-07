@@ -1,0 +1,24 @@
+package Questions.Ch04_Graph.Basics;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Q001_UVa11902_Dominator {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	private static ArrayList<Integer>[] graph;
+	public static void solve() throws Exception {
+
+	}
+	
+	
+	private static void DFS(int st,boolean[] isdone,int end){
+		isdone[st]=true;
+		
+	}
+
+}

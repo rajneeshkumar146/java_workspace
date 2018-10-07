@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Q001_030.Q003_prime1.Seive(...)&apos; to &apos;primePrint&apos;&#x0D;&#x0A;- Original project: &apos;Spoj&apos;&#x0D;&#x0A;- Original element: &apos;Q001_030.Q003_prime1.Seive(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;Q001_030.Q003_prime1.primePrint(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;Seive&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;Q001_030{Q003_prime1.java[Q003_prime1~Seive~I~I" name="primePrint" references="true" stamp="1537903534382" version="1.0"/>
+</session>

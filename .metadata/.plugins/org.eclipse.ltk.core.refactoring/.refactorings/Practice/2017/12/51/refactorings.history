@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;one&apos; in &apos;Rotation_Of_ARRAY.main(...)&apos; to &apos;arr&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;Rotation_Of_ARRAY.main(String[]).one&apos;&#x0D;&#x0A;- Renamed element: &apos;one&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;one&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Rotation_Of_ARRAY.java[Rotation_Of_ARRAY~main~\[QString;@one!309!331!315!317!\[I!0!false" name="arr" references="true" stamp="1513832079844" version="1.0"/>
+</session>

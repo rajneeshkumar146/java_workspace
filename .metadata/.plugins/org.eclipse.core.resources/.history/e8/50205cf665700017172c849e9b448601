@@ -1,0 +1,12 @@
+package Class_19th_Generic_Tree;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+		GenericTree gt=new GenericTree();
+		gt.display();
+
+	}
+
+}

@@ -1,0 +1,42 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class Q013_searchInSortedAndPivotedArray {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		solve();
+	}
+
+	public static void solve() {
+	}
+
+	private static int Pivote(int[] arr, int lo, int hi) {
+		if (lo == hi) {
+			return lo;
+		}
+
+		int mid = (lo + hi) >> 1;
+		int prev = (mid - 1 + arr.length) % arr.length;
+		int next = (mid + 1) % arr.length;
+
+		if (arr[mid] > arr[prev] && arr[mid] > arr[next]) {
+			return mid;
+		} else if (arr[mid] < arr[lo]) {
+			return Pivote(arr, lo, mid - 1);
+		} else {
+			return Pivote(arr, mid + 1, hi);
+		}
+
+	}
+
+	private static int[] ArrayInput(int n) {
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = scn.nextInt();
+		}
+		return arr;
+	}
+
+}

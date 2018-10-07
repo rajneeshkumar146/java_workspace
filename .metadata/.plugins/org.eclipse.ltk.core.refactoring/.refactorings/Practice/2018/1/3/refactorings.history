@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Practice/src/Rotation_Of_ARRAY.java&apos; to &apos;Main.java&apos;" description="Rename resource &apos;Rotation_Of_ARRAY.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Rotation_Of_ARRAY.java" name="Main.java" stamp="1515902921958" updateReferences="true"/>
+</session>

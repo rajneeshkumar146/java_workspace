@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Assingments/src/Assingment_08a_Recursion/Q04_permutation.java&apos; to &apos;Q04_permutationRepeatedOrNonRepeated.java&apos;" description="Rename resource &apos;Q04_permutation.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Assingment_08a_Recursion/Q04_permutation.java" name="Q04_permutationRepeatedOrNonRepeated.java" stamp="1516437829206" updateReferences="true"/>
+</session>

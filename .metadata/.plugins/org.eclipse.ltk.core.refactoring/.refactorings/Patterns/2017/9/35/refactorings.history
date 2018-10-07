@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;nspi&apos; in &apos;MultipleCross.mc(...)&apos; to &apos;nspsi&apos;&#x0D;&#x0A;- Original project: &apos;Patterns&apos;&#x0D;&#x0A;- Original element: &apos;MultipleCross.mc(int).nspi&apos;&#x0D;&#x0A;- Renamed element: &apos;nspi&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;nspi&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{MultipleCross.java[MultipleCross~mc~I@nspi!217!233!221!224!I!0!false" name="nspsi" references="true" stamp="1504376029528" version="1.0"/>
+</session>

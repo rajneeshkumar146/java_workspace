@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;num1&apos; in &apos;june9.Inverse.main(...)&apos; to &apos;result&apos;&#x0D;&#x0A;- Original project: &apos;Crux2Sum2017&apos;&#x0D;&#x0A;- Original element: &apos;june9.Inverse.main(String[]).num1&apos;&#x0D;&#x0A;- Renamed element: &apos;num1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;num1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;june9{Inverse.java[Inverse~main~\[QString;@num1!236!248!240!243!I!0!false" name="result" references="true" stamp="1499939626490" version="1.0"/>
+</session>

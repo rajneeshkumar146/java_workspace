@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DataStructure/src/RangeQuery/SparshTable.java&apos; to &apos;SparseTable.java&apos;" description="Rename resource &apos;SparshTable.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/RangeQuery/SparshTable.java" name="SparseTable.java" stamp="1537674440793" updateReferences="true"/>
+</session>

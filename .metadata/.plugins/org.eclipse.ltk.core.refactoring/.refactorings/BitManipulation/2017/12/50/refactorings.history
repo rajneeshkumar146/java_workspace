@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BitManipulation/src/Equal_Sum_And_XOR.java&apos; to &apos;XOR_From_1_to_N.java&apos;" description="Rename resource &apos;Equal_Sum_And_XOR.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Equal_Sum_And_XOR.java" name="XOR_From_1_to_N.java" stamp="1513411968631" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Coding_Blocks/src/Shell_rotate.java&apos; to &apos;Spiral_rotate.java&apos;" description="Rename resource &apos;Shell_rotate.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Shell_rotate.java" name="Spiral_rotate.java" stamp="1497593994358" updateReferences="true"/>
+</session>

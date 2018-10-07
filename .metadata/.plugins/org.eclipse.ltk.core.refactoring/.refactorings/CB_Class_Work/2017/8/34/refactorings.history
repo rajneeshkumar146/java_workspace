@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CB_Class_Work/src/Extra/BigInteger.java&apos; to &apos;BigInteger_Extra.java&apos;" description="Rename resource &apos;BigInteger.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Extra/BigInteger.java" name="BigInteger_Extra.java" stamp="1503599722052" updateReferences="true"/>
+</session>

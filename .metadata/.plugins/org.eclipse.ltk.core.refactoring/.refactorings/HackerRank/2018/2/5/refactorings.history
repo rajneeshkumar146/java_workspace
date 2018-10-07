@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HackerRank/src/Practice/Algorithms/Implimentation/Larrys_Array.java&apos; to &apos;Q01_Larrys_Array.java&apos;" description="Rename resource &apos;Larrys_Array.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Practice/Algorithms/Implimentation/Larrys_Array.java" name="Q01_Larrys_Array.java" stamp="1517634508343" updateReferences="true"/>
+</session>

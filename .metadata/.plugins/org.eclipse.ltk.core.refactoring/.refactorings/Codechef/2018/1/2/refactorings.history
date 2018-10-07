@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;i&apos; in &apos;LongChallenge.Jan5th2017.MaximumScore.takeinput(...)&apos; to &apos;row&apos;&#x0D;&#x0A;- Original project: &apos;Codechef&apos;&#x0D;&#x0A;- Original element: &apos;LongChallenge.Jan5th2017.MaximumScore.takeinput(long[][], int).i&apos;&#x0D;&#x0A;- Renamed element: &apos;i&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;i&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;LongChallenge.Jan5th2017{MaximumScore.java[MaximumScore~takeinput~\[\[J~I@i!836!844!840!840!I!0!false" name="row" references="true" stamp="1515347376254" version="1.0"/>
+</session>

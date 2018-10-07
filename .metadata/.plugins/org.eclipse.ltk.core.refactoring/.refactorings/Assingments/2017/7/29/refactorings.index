@@ -1,0 +1,7 @@
+1500611872579	Extract method 'addFisrtsize0'
+1500612817536	Extract method 'removeFisrtatSize0'
+1500647546493	Extract method 'KthNode'
+1500697034387	Extract method 'swap'
+1500707604378	Rename local variable 'result'
+1500710652444	Extract method 'mergeSort'
+1500729659975	Extract method 'bubbleSortRecu'

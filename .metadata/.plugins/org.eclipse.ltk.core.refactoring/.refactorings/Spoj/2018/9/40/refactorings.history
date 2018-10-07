@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;digit&apos; in &apos;Q001_030.Q006_PPATH_PrimePath.ppath(...)&apos; to &apos;digit&apos;&#x0D;&#x0A;- Original project: &apos;Spoj&apos;&#x0D;&#x0A;- Original element: &apos;Q001_030.Q006_PPATH_PrimePath.ppath(int, int).j&apos;&#x0D;&#x0A;- Renamed element: &apos;digit&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;digit&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Q001_030{Q006_PPATH_PrimePath.java[Q006_PPATH_PrimePath~ppath~I~I@j!548!554!552!552!I!0!false" name="digit" references="true" stamp="1538324996387" version="1.0"/>
+</session>

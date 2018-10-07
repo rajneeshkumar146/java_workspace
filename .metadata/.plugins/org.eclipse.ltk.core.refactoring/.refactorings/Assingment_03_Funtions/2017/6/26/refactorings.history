@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Assingment_03_Funtions/src/Question_15-Precies_Series_with_deleting_term_important.java&apos; to &apos;Question_15_Precies_Series_with_deleting_term_important.java&apos;" description="Rename resource &apos;Question_15-Precies_Series_with_deleting_term_important.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Question_15-Precies_Series_with_deleting_term_important.java" name="Question_15_Precies_Series_with_deleting_term_important.java" stamp="1498370320124" updateReferences="true"/>
+</session>

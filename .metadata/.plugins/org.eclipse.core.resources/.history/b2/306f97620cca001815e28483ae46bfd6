@@ -1,0 +1,132 @@
+package String.DataCompression;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.PriorityQueue;
+import java.util.Scanner;
+
+public class HuffManEncoderDecoder {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+		HuffmanEncoderDecoder HMCD = new HuffmanEncoderDecoder(
+				"aaaaaaaaaaabbbbbbbbbbbbbbbbbccccccccccccccccfffffffffffgggggggggggsssssssdddddddddddd");
+
+		String compress = HMCD.Compress("abbbbbbbbbbbcd");
+		String Depress = HMCD.Depress(compress);
+
+		System.out.println(compress);
+
+	}
+
+	// HuffManEncoderDecoder.=========================================================================
+
+	private static class HuffmanEncoderDecoder {
+
+		private class Node implements Comparable<Node> {
+			private char ch;
+			private int freq;
+			private Node left;
+			private Node right;
+
+			private Node(int freq, Node left, Node right) {
+				this.freq = freq;
+				this.left = left;
+				this.right = right;
+			}
+
+			@Override
+			public int compareTo(Node o) {
+				return this.freq - o.freq;
+			}
+
+		}
+
+		private HashMap<Character, String> Encode = new HashMap<>();
+		private HashMap<String, Character> Decode = new HashMap<>();
+
+		// Constructor.===============================================================================
+
+		public HuffmanEncoderDecoder(String str) {
+			PriorityQueue<Node> pq = new PriorityQueue<Node>();
+			HashMap<Character, Integer> freq = new HashMap<>();
+
+			for (int i = 0; i < str.length(); i++) {  //for frequency.
+				char ch = str.charAt(i);
+				freq.put(ch, freq.containsKey(ch) ? freq.get(ch) + 1 : 1);
+			}
+
+			ArrayList<Character> keys = new ArrayList<>(freq.keySet());
+			for (Character key : keys) {
+				Node node = new Node(freq.get(key), null, null);
+				node.ch = key;
+				pq.add(node);
+			}
+
+			while (pq.size() > 1) {
+				Node one = pq.remove();
+				Node two = pq.remove();
+
+				Node node = new Node(one.freq + two.freq, one, two);
+				pq.add(node);
+			}
+
+			Node root = pq.remove();
+			Traversal(root, "");
+
+		}
+
+		private void Traversal(Node node, String str) {
+
+			if (node.left == null && node.right == null) {
+				Encode.put(node.ch, str);
+				Decode.put(str, node.ch);
+				return;
+			}
+
+			Traversal(node.left, str + "0");
+			Traversal(node.right, str + "1");
+
+		}
+
+		// Compress_and_Depress.===================================================
+
+		public String Compress(String str) {
+			StringBuilder code = new StringBuilder();
+
+			for (int i = 0; i < str.length(); i++) {
+				char ch = str.charAt(i);
+				if (Encode.containsKey(ch)) {
+					code.append(Encode.get(ch));
+				}
+			}
+
+			return code.toString();
+		}
+
+		public String Depress(String code) {
+
+			StringBuilder ans = new StringBuilder();
+			StringBuilder codesf = new StringBuilder();
+
+			for (int i = 0; i < code.length(); i++) {
+				codesf.append(code.charAt(i));
+
+				if (Decode.containsKey(codesf.toString())) {
+					ans.append(Decode.get(codesf.toString()));
+					codesf = new StringBuilder();
+				}
+
+			}
+
+			return ans.toString();
+		}
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;curr&apos; in &apos;Assingment_09_LinkedList.LinkedList.removeDupli()&apos; to &apos;prev&apos;&#x0D;&#x0A;- Original project: &apos;Assingments&apos;&#x0D;&#x0A;- Original element: &apos;Assingment_09_LinkedList.LinkedList.removeDupli().curr&apos;&#x0D;&#x0A;- Renamed element: &apos;curr&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;curr&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Assingment_09_LinkedList{LinkedList.java[LinkedList~removeDupli@curr!17406!17425!17411!17414!QNode;!0!false" name="prev" references="true" stamp="1500817319822" version="1.0"/>
+</session>

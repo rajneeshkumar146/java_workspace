@@ -1,0 +1,30 @@
+package Q001_030;
+
+import java.util.Scanner;
+
+public class Q005_BreakMagicianCode {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+	private static int nearestPowOf2(int n) {
+		if (n != 0 && (n & (n - 1)) == 0) {
+			return n;
+		}
+
+		int i = 1;
+		int count = 0;
+		while (i < n) {
+			i <<= 1;
+			count++;
+		}
+
+	}
+
+}

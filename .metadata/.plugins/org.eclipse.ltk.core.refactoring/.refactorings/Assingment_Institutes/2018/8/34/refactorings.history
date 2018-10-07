@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Assingment_Institutes/src/Matrix_0012&apos; to &apos;Matrix_001&apos;" description="Rename resource &apos;Matrix_0012&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Matrix_0012" name="Matrix_001" stamp="1534825943009" updateReferences="true"/>
+</session>

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Inverted_Right_Triangle_Pattern_01 {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Enter number of row's");
+		int n = scn.nextInt();
+		for (int row = 1; row <= n; row++) {
+			for (int crt = 1; crt <= n; crt++) {
+				if (row <= crt) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
+
+			}
+			System.out.println();
+		}
+
+	}
+}

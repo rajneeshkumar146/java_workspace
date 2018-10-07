@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Codechef/src/LongChallenge/Jan5th&apos; to &apos;Jan5th2017&apos;" description="Rename resource &apos;Jan5th&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/LongChallenge/Jan5th" name="Jan5th2017" stamp="1515241084412" updateReferences="true"/>
+</session>

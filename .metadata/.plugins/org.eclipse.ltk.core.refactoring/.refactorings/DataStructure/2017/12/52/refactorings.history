@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;proccess&apos; in &apos;BInaryTree.BinaryTree.preDisplayIrr2()&apos; to &apos;process&apos;&#x0D;&#x0A;- Original project: &apos;DataStructure&apos;&#x0D;&#x0A;- Original element: &apos;BInaryTree.BinaryTree.preDisplayIrr2().proccess&apos;&#x0D;&#x0A;- Renamed element: &apos;proccess&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;proccess&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;BInaryTree{BinaryTree.java[BinaryTree~preDisplayIrr2@proccess!7039!7064!7044!7051!QNode;!0!false" name="process" references="true" stamp="1514306071015" version="1.0"/>
+</session>

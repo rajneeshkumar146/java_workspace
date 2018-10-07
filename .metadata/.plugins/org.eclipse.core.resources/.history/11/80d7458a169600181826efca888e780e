@@ -1,0 +1,16 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class Q015_MaximumSumOfIndexProductValue {
+	 public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+
+	}
+
+}

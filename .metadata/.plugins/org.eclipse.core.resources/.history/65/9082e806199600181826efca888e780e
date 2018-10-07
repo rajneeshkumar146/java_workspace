@@ -1,0 +1,25 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class Q013_searchInSortedAndPivotedArray {
+	public static Scanner scn = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		solve();
+	}
+
+	public static void solve() {
+		int[] arr = ArrayInput(scn.nextInt());
+		int mid=(arr.length-1)>>!;
+	}
+
+	private static int[] ArrayInput(int n) {
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = scn.nextInt();
+		}
+		return arr;
+	}
+
+}

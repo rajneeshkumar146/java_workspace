@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;pi&apos; in &apos;L021_FenwickTree.FenwickTree_001.fenwickTree.RightSetMostBit(...)&apos; to &apos;pos&apos;&#x0D;&#x0A;- Original project: &apos;ClassWork_PepCoding&apos;&#x0D;&#x0A;- Original element: &apos;L021_FenwickTree.FenwickTree_001.fenwickTree.RightSetMostBit(int).pi&apos;&#x0D;&#x0A;- Renamed element: &apos;pi&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pi&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;L021_FenwickTree{FenwickTree_001.java[FenwickTree_001[fenwickTree~RightSetMostBit~I@pi!451!456!455!456!I!0!true" name="pos" references="true" stamp="1534654359997" version="1.0"/>
+</session>

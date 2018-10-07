@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;proceed&apos; in &apos;Graph_and_there_question.Graphs.bfs(...)&apos; to &apos;procced&apos;&#x0D;&#x0A;- Original project: &apos;Graphs_LinkedList_and_HashMap&apos;&#x0D;&#x0A;- Original element: &apos;Graph_and_there_question.Graphs.bfs(String, String).proceed&apos;&#x0D;&#x0A;- Renamed element: &apos;proceed&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;proceed&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Graph_and_there_question{Graphs.java[Graphs~bfs~QString;~QString;@proceed!4365!4416!4391!4397!QHashMap\&lt;QString;QBoolean;&gt;;!0!false" name="procced" references="true" stamp="1502700895773" version="1.0"/>
+</session>

@@ -1,0 +1,139 @@
+package LCA;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class RMQ_Logn {
+	final int mod = 1000000000 + 7;
+	public static Scanner scn = new Scanner(System.in);
+
+	private static ArrayList<Integer>[] tree;
+	private static int[] Euler;
+	private static int[] Level;
+	private static int[] Occurence;
+	private static int EulerTraversal;
+
+	private static int[] ST;
+
+	public static void main(String[] args) throws Exception {
+		solve();
+	}
+
+	public static void solve() throws Exception {
+		int n = 8;
+		Intialization(n);
+
+		dfs(1, 0);
+		construction(0, EulerTraversal - 1, 0);
+
+		displayArray(ST);
+		// displayArray(Euler);
+		// displayArray(Level);
+		// displayArray(Occurence);
+		// System.out.println(EulerTraversal);
+
+	}
+
+	private static void dfs(int u, int depth) {
+		if (Occurence[u] == -1) {
+			Occurence[u] = EulerTraversal;
+		}
+
+		for (Integer i : tree[u]) {
+			Euler[EulerTraversal] = u;
+			Level[EulerTraversal++] = depth;
+			dfs(i, depth + 1);
+		}
+
+		Euler[EulerTraversal] = u;
+		Level[EulerTraversal++] = depth;
+	}
+
+	private static int construction(int si, int ei, int i) {
+		if (si == ei) {
+			ST[i] = Level[i];
+			return Level[i];
+		}
+
+		int mid = 0 + (si + ei) >> 1;
+		ST[i] = Math.min(construction(si, mid, 2 * i + 1), construction(mid + 1, ei, 2 * i + 2));
+		return ST[i];
+	}
+
+	private static int Query(int lo, int hi) {
+		if (hi < lo) {
+			int temp = lo;
+			lo = hi;
+			hi = temp;
+		}
+
+		return Query(lo, hi, 0, EulerTraversal - 1, 0);
+
+	}
+
+	private static int Query(int lo, int hi, int si, int ei, int i) {
+		if (lo <= si && ei <= hi) {
+			return ST[i];
+		} else if (hi < si || ei < lo) {
+			return -1;
+		} else {
+			int mid = ei + (si - ei) >> 1;
+			return Math.min(Query(lo, hi, si, mid, 2 * i + 1), Query(lo, hi, mid + 1, ei, 2 * i + 2));
+		}
+	}
+
+	private static void Intialization(int n) {
+		// Tree Section.
+		tree = new ArrayList[n + 1];
+		for (int i = 0; i <= n; i++) {
+			tree[i] = new ArrayList<>();
+		}
+
+		Euler = new int[2 * n - 1];
+		Level = new int[2 * n - 1];
+		EulerTraversal = 0;
+
+		Occurence = new int[n + 1];
+		Arrays.fill(Occurence, -1);
+
+		// Segment Tree.
+		int height = log(n);
+		int size = 2 * (int) Math.pow(2, height+1) - 1;
+		ST = new int[size];
+
+		// Inputs.
+		addEdge(1, 2);
+		addEdge(1, 3);
+		addEdge(2, 4);
+		addEdge(2, 5);
+		addEdge(2, 6);
+		addEdge(3, 7);
+		addEdge(3, 8);
+
+	}
+
+	private static int log(int value) {
+		int res = 0;
+		while ((1 << res) < value) {
+			res++;
+		}
+
+		if ((1 << res) > value) {
+			res--;
+		}
+		return res;
+	}
+
+	public static void addEdge(int u, int v) {
+		tree[u].add(v);
+	}
+
+	private static void displayArray(int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println();
+	}
+
+}
