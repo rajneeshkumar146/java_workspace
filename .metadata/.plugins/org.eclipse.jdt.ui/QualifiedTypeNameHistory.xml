@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="java.awt.MultipleGradientPaint.CycleMethod"/>
-<fullyQualifiedTypeName name="Graphs.HashMap.BidirectedGraphs"/>
-<fullyQualifiedTypeName name="Graphs.HashMap.BidirectedGraphs.Pair"/>
-<fullyQualifiedTypeName name="L019_Graph.Graph_001.Graph.TPair"/>
-<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="Graphs.TopoLogicalsort.TopoSort_001.Pair"/>
-<fullyQualifiedTypeName name="Heap.Heap"/>
-<fullyQualifiedTypeName name="Graphs.HashMap.BidirectedGraphs.Cluster"/>
-<fullyQualifiedTypeName name="Graphs.HashMap.BidirectedGraphs.KruskalPair"/>
-<fullyQualifiedTypeName name="Graphs.HashMap.BidirectedGraphs.DijikstraPair"/>
 <fullyQualifiedTypeName name="Graphs.Kruskal_Edge.Kruskal_byEdge"/>
 <fullyQualifiedTypeName name="Graphs.Kruskal_Edge.Kruskal_byEdge.Cluster"/>
 <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
@@ -23,7 +12,6 @@
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="DynamicProgramming.Q212_NumericKeyPad"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="L019_HashMap.HashMap_001.Linkedlist.HeapMover"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="L019_HashMap.HashMap_001.Linkedlist.Node"/>
@@ -51,13 +39,25 @@
 <fullyQualifiedTypeName name="java.util.BitSet"/>
 <fullyQualifiedTypeName name="Theory.MatheMatics.T05_NumberTheory.T01_PrimeNumber"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
-<fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="LCA.RMQ_Logn.euler"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="LCA.RMQ_Logn.Pair"/>
+<fullyQualifiedTypeName name="L011_LinkedList.LinkedList_001"/>
+<fullyQualifiedTypeName name="L011_LinkedList.LinkedList_001.Linkedlist"/>
+<fullyQualifiedTypeName name="Graphs.client"/>
+<fullyQualifiedTypeName name="Array.Q002_AddOneToNumber"/>
+<fullyQualifiedTypeName name="Array.Q003_MaxSumContigiousSubArray"/>
+<fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
+<fullyQualifiedTypeName name="L004_Array.Array_001.Print"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

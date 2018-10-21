@@ -8,11 +8,6 @@ public class solution {
 
 	public static void main(String[] args) throws IOException {
 
-		
-		int a=010;
-		System.out.println(a);
-	
-	
 	}
 
 }

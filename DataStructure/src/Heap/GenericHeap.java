@@ -25,9 +25,6 @@ public class GenericHeap<T> {
 			this.downheapify(i, this.size());
 		}
 
-		
-		
-		
 	}
 
 	// General_funtions--------------------------------------------------------------------------------------
@@ -180,10 +177,9 @@ public class GenericHeap<T> {
 	private boolean higherPriority(int i, int j) {
 		T idata = this.data.get(i);
 		T jdata = this.data.get(j);
-		
-		return ctor.compare(idata, jdata)>0;
 
-	
+		return ctor.compare(idata, jdata) > 0;
+
 	}
 
 	// Contains------------------------------------------------------------------------------------------------------

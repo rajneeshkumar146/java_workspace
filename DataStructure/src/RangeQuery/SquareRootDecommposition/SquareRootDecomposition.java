@@ -55,7 +55,7 @@ public class SquareRootDecomposition {
 	}
 
 	private static void Intialization() {
-		// input = ArrayInput(n);
+//		 input = ArrayInput(n);
 
 		int[] arr = { 1, 5, 2, 4, 6, 1, 3, 5, 7, 10 };
 		input = arr;

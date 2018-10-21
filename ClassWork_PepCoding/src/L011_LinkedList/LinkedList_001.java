@@ -19,13 +19,13 @@ public class LinkedList_001 {
 	public static void solve() throws Exception {
 		Linkedlist ll = new Linkedlist();
 
-		ll.AddFirst(10);
-		ll.AddFirst(20);
-		ll.AddFirst(30);
-		ll.AddFirst(40);
-		ll.AddFirst(50);
-		ll.AddFirst(60);
-		ll.AddFirst(70);
+		// ll.AddFirst(10);
+		// ll.AddFirst(20);
+		// ll.AddFirst(30);
+		// ll.AddFirst(40);
+		// ll.AddFirst(50);
+		// ll.AddFirst(60);
+		// ll.AddFirst(70);
 
 		// pnter.printLine(ll + "");
 		// pnter.printLine(ll.getAt(2) + "");
@@ -51,9 +51,31 @@ public class LinkedList_001 {
 		// ll.AddFirst(10);
 		// pnter.printLine(ll.Palindrome() + "");
 
-		ll.Fold();
-		ll.UnFold();
-		System.out.println(ll);
+		// ll.Fold();
+		// ll.UnFold();
+		// pnter.printLine(ll + "");
+
+		// ==============================================================================
+		ll.AddFirst(1);
+		ll.AddFirst(1);
+		ll.AddFirst(2);
+		ll.AddFirst(3);
+		ll.AddFirst(4);
+		ll.AddFirst(4);
+		ll.AddFirst(4);
+		ll.AddFirst(4);
+		ll.AddFirst(5);
+		ll.AddFirst(6);
+		ll.AddFirst(7);
+		ll.AddFirst(7);
+		ll.AddFirst(7);
+		ll.AddFirst(7);
+
+		// ll.OddEven();
+		// pnter.printLine(ll + "");
+
+		ll.RemoveDuplicates();
+		pnter.printLine(ll + "");
 
 	}
 
@@ -520,9 +542,9 @@ public class LinkedList_001 {
 
 			while (this.ElementCount != 0) {
 				if ((getFirst() & 1) == 0) {
-					even.AddFirstNode(RemoveFirstNode());
+					even.AddLastNode(RemoveFirstNode());
 				} else {
-					odd.AddFirstNode(RemoveFirstNode());
+					odd.AddLastNode(RemoveFirstNode());
 				}
 			}
 
@@ -538,8 +560,23 @@ public class LinkedList_001 {
 				this.tail = even.tail;
 			}
 
+			this.tail.next = null;
 			this.ElementCount = odd.ElementCount + even.ElementCount;
 
+		}
+
+		public void RemoveDuplicates() {
+			Node curr = this.head;
+			Node forw = curr.next;
+			while (forw != null) {
+				if (curr.data == forw.data) {
+					curr.next = forw.next;
+					forw = forw.next;
+				} else {
+					curr = forw;
+					forw = forw.next;
+				}
+			}
 		}
 
 	}

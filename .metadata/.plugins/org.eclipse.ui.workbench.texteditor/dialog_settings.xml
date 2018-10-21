@@ -19,6 +19,7 @@
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="s"/>
 			<item value="Node traverse = node.right != null ? node.right : node.left == null ? node.left : node;"/>
 			<item value="package Graphs.HashMap;"/>
 			<item value="break;"/>
@@ -26,7 +27,6 @@
 			<item value="index"/>
 			<item value="d"/>
 			<item value="1.1 MergeSort"/>
-			<item value="remove"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

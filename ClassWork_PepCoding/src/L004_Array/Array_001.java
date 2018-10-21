@@ -68,11 +68,12 @@ public class Array_001 {
 
 		// int r = scn.scanInt();
 		// rotate(arr, n, r);
+		// displayArray(0, n - 1, arr);
 
 		// int ans = KadanesAlgoForNegative2(arr, n);
 		// pnter.print(ans + "");
 
-		displayArray(0, n - 1, arr);
+		// displayArray(0, n - 1, arr);
 	}
 
 	private static int LinearSerach(int[] arr, int n, int ele) {
@@ -188,8 +189,8 @@ public class Array_001 {
 		r = r % n;
 
 		ReverseArray(arr, 0, r - 1);
-		ReverseArray(arr, r, n);
-		ReverseArray(arr, 0, n);
+		ReverseArray(arr, r, n - 1);
+		ReverseArray(arr, 0, n - 1);
 	}
 
 	private static int KadanesAlgoForNegative1(int[] arr, int n) {

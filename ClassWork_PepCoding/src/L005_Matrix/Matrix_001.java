@@ -28,13 +28,13 @@ public class Matrix_001 {
 	}
 
 	public static void solve() throws Exception {
-		 int n = scn.scanInt();
-		 int m = scn.scanInt();
-		 int[][] arr = takeMatrixInput(n, m);
+		int n = scn.scanInt();
+		int m = scn.scanInt();
+		int[][] arr = takeMatrixInput(n, m);
 
 		// int[][] arr = { { 1, 2, 3 }, { 5, 6, 7 }, { 9, 10, 11 }, { 12, 13, 14
 		// }, { 15, 16, 17 } };
-//		int[][] arr = { { 9, 8, 7 }, { 6, 5, 4 }, { 3, 2, 1 } };
+		// int[][] arr = { { 9, 8, 7 }, { 6, 5, 4 }, { 3, 2, 1 } };
 		// MatrixMult(arr, arr.length, arr[0].length, two, two.length,
 		// two[0].length);
 
@@ -43,11 +43,11 @@ public class Matrix_001 {
 
 		// Spiral(arr);
 
-		 ExitPoint(arr);
+		ExitPoint(arr);
 
-//		RotateBy90(arr);
+		// RotateBy90(arr);
 
-//		displayMatrix(arr);
+		// displayMatrix(arr);
 	}
 
 	private static void MatrixMult(int[][] one, int n, int m, int[][] two, int n1, int m1) throws IOException {
@@ -67,13 +67,10 @@ public class Matrix_001 {
 				}
 			}
 		}
-
 		displayMatrix(rmatrix);
-
 	}
 
 	private static void TransposeOfMatrix(int[][] arr) {
-
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i; j < arr[0].length; j++) {
 				Swap2DEle(arr, i, j, j, i);
@@ -202,36 +199,10 @@ public class Matrix_001 {
 			for (int row = 0; row < arr.length; row++) {
 				Swap2DEle(arr, row, le, row, ri);
 			}
-
 		}
-
 	}
 
 	// -------------------------------------------------------------------------------------------------------------
-
-	private static int NumberLength(int n) {
-		int length = 0;
-		while (n != 0) {
-			length++;
-			n = n / 10;
-		}
-
-		return length;
-	}
-
-	private static void ReverseArray(int[] arr, int st, int en) {
-		for (int i = st; st <= en; st++, en--) {
-			swap(arr, st, en);
-		}
-	}
-
-	private static int[] PrifixSumArray(int le, int ri, int[] arr) {
-		for (int i = le + 1; i < ri; i++) {
-			arr[i] += arr[i - 1];
-		}
-
-		return arr;
-	}
 
 	private static void swap(int[] arr, int i, int j) {
 		int temp = arr[i];
@@ -245,26 +216,6 @@ public class Matrix_001 {
 		arr[i2][j2] = temp;
 	}
 
-	private static int maxInArray(int[] arr) {
-		int max = arr[0];
-		for (int i : arr) {
-			if (i > max) {
-				max = i;
-			}
-		}
-
-		return max;
-	}
-
-	private static int[] takeArrayInput(int n) throws IOException {
-		int[] arr = new int[n];
-		for (int i = 0; i < n; i++) {
-			arr[i] = scn.scanInt();
-			// arr[i] = scn.nextInt();
-		}
-		return arr;
-	}
-
 	private static int[][] takeMatrixInput(int n, int m) throws IOException {
 		int[][] arr = new int[n][m];
 		for (int row = 0; row < n; row++) {
@@ -276,15 +227,6 @@ public class Matrix_001 {
 		return arr;
 	}
 
-	private static void displayArray(int le, int ri, int[] arr) throws IOException {
-		for (int i = le; i <= ri; i++) {
-			pnter.print(arr[i] + " ");
-			// System.out.print(arr[i]+" ");
-		}
-		pnter.printLine("");
-		// System.out.println();
-	}
-
 	private static void displayMatrix(int[][] arr) throws IOException {
 		for (int[] i : arr) {
 			for (int el : i) {
@@ -294,13 +236,6 @@ public class Matrix_001 {
 			pnter.printLine("");
 			// System.out.println();
 		}
-	}
-
-	private static void cloneArray(int[] arr, int[] Oarr, int n) {
-		for (int i = 0; i < n; i++) {
-			arr[i] = Oarr[i];
-		}
-
 	}
 
 	static class Scan {
